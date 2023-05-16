@@ -11,7 +11,7 @@ def create_graph(edges, vertices):
     G.add_edges_from([(edges['id1'][i], edges['id2'][i]) for i in range(len(edges))])
     return G
 
-
+#s
 def density_g(structure, G):
     '''
     :param structure: list of vendices' ids representing initial structure
