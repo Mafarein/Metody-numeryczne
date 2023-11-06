@@ -1,0 +1,68 @@
+
+Lab 6 - Task 1 (20 points) 
+
+
+Create 2 HTML pages that look like the images you find in the 
+in the ./pages folder.
+ 
+Both pages must use HTML5, all styles must be attached
+in one css file, used by both pages. Validate the correctness of the HTML used. 
+Neither the style attribute nor the style inside the <style> tag may be used. 
+
+All images necessary for the task (background, images) are 
+included. In addition, a file containing the text of the page is given.
+The colour palette may be different from the example as long as it reflects the example's impression.
+
+Please note that the CSS may be cached by the browser in which you open the 
+page. If you experience problems such as the appearance not changing, start in a new tab, 
+restart your browser or cache (from the last hour, etc.), or use in private mode.
+Verify the solutions in your browser - write in comment which you were using. 
+
+Task writing time : 90 minutes.
+Solutions should be returned by email:
+to : g.ostrek@mini.pw.edu.pl
+subject : [WAP] Task 1
+You should attach your solution as a zip file named after your
+login to the MINI PW <login>.zip file which contains all the files included in the
+solution and the image files from the task, as required by the
+solution.
+
+The file should be sent by email to grzegorz.ostrek@pw.edu.pl no more 
+than 90 minutes after you start writing the assignment. 
+The browser used can be entered in the comments.
+
+Detailed scoring (points awarded for 100% completion of subtask only):
+3p Sources comply with the HTML5/CSS3 standard and the requirements listed.
+1p Formatting and appearance of header as shown in images
+1p Left and right margins of page.
+1p Page background colour and image repeated in shown orientation and approximate width of the 
+   browser window. 
+2p Descriptions - text wraps around image on right hand side, 
+   rounded dotted line border, 2em spacing between border and content 
+   and between frames. Text is aligned, image at width=5em, 
+   spacing of image from text .5em.
+1p For using CSS selectors such that no class or 
+    id directly for the img elements, and the style has been applied only 
+    for images inside the frame 
+1p A semi-transparent, cookie-free banner.
+   Has a fixed height,is at the bottom of the browser window at all times
+   of the browser, it does not move when scrolling. 
+1p Use of semenatic tag: address, document part.
+1p A Table
+
+Form:
+1p At least one form field and submit button, 
+   grouped fields surrounded by a frame with legend
+1p Phone number field requires exactly 9 digits to be entered and is required
+1p Correctly entered special characters, encoding and page language.
+5p JavaScript code adding descrition of problem - use addEventListener for key events.
+ - Mark red group name if it does not start with capital letter, or green if it is correct
+ - Append information, when a conditions for password are not met: 8 characters long, and contains a digit 
+
+You may use given index.html, style.css and script.js files, fill in index.html missing code to use them.
+
+You may use following JS code in Regexp:
+var digitRegEx = /[0-9]/;
+var countRegEx = /^[a-zA-Z0-9]{8,}$/;
+
+

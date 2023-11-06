@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 194, 89);
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+
+  .column {
+    z-index: 0;
+    flex: 1;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 5px;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 1px dotted green; 
+  }
+
+  th, td {
+    border: 2px dotted green; 
+    padding: 8px;
+  }
+
+  .cont {
+    text-align: center; 
+  }
+
+  .third {
+    right: 0;
+    height: 30em;
+    width: 10em;
+    overflow: hidden;
+}
+
+.third:hover {
+    height: auto;
+    background-color: gray;
+}
+
+.frame {
+    left: 0;
+    width: 300px;
+    height: 207px;
+    background: url('ryba.png') no-repeat center center;
+    background-size: cover;
+    position: fixed;
+    height: 10em;
+    width: 15em;
+    overflow: hidden;
+    margin-left: 2em;
+  }
+
+.frame:hover {
+    z-index: 1; /* Przesunięcie na wierzch, aby wychodził poza ramkę pierwszą */
+}
+
+  #resources {
+    top: 20em;
+}

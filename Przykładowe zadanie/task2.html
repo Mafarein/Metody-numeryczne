@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task1.css" type="text/css">
+	<script src="script1.js"></script>
+</head>
+<body>
+    <section class="title">
+        <h1>Something about something</h1>
+        <hr>
+        <h3>La la</h3>
+    </section>
+    <h3>Reserve a seat</h3>
+    <h3>Timetable</h3>
+    <table border="1" class="table1">
+		<tr>
+			<th>Weekday</th>
+			<th>8-10</th>
+			<th>10-12</th>
+            <th>14-17</th>
+		</tr>
+		<tr>
+			<td>Saturday</td>
+			<td rowspan="2">Free</td>
+			<td>Res</td>
+            <td>Free</td>
+		<tr>
+			<td>Sunday</td>
+			<td colspan="2">
+                Free
+            </td>
+        </tr>
+	</table>
+    <h3>Fill</h3>
+    <form class="formfield">
+		<fieldset>
+			<legend>Date</legend>
+			<table>
+                <tr>
+					<td><label for="prodin">Month</label></td>
+					<td><select name="prodin" id="prodin">
+								<option value="us">January</option>
+								<option value="uk">February</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td><label for="offered">Month day</label></td>
+					<td><select name="offered" id="offered" multiple="multiple">
+					</select></td>
+				</tr>
+			</table>
+		</fieldset>
+        <fieldset id="myform">
+            <legend>Group info</legend>
+            <table>
+                <tr>
+					<td><label for="name">Group name</label></td>
+					<td><input type="text" name="name" id="name"></td>
+				</tr>
+				<tr>
+					<td><label for="password">Group password</label></td>
+  					<td><input type="password" id="password" name="password">
+					<td id="err_password" class="err_password"></td>
+					<td id="err_password2" class="err_password"></td>
+				</tr>
+				<tr>
+					<td><label for="phone">Phone</label></td>
+					<td><input type="text" name="phone" id="phone"></td>
+				</tr>
+			</table>
+        </fieldset>
+		<button type="submit" form="form1" value="Submit">Send form</button>
+	</form>
+</body>
+</html>
